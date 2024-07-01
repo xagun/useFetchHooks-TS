@@ -1,0 +1,50 @@
+.App {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 5rem;
+}
+.App h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.App p {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  height: 30px;
+  width: auto;
+  padding: 5px 10px;
+}
+
+.completed {
+  background-color: green;
+}
+.todo {
+background-color: rgb(255, 153, 0);
+}
+
+
+.todo-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.button-area button{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
